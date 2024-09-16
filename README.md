@@ -51,7 +51,7 @@
 ![6 katalog_responsive png](https://github.com/user-attachments/assets/61070604-c340-4fcd-823c-b4c91dcac8bd)
 ![5 landing_responsive](https://github.com/user-attachments/assets/bba274b2-5fdb-4e22-8614-c3247762f133)
 
-### Posttest 1
+### Posttest 2
 
 **Coming soon**
 
