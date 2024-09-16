@@ -1,8 +1,8 @@
 # Website Katalog Laptop
 
- Nama   : Natanael Primus Lung H.N
- NIM    : 2209106029
- Kelas  : Framework A2
+ 1. Nama   : Natanael Primus Lung H.N
+ 2. NIM    : 2209106029
+ 3. Kelas  : Framework A2
 
 ---
 
