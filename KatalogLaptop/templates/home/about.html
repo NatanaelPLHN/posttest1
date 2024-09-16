@@ -1,0 +1,33 @@
+{% extends 'home/layouts.html' %}
+
+{% load static %}
+
+{% block title %}
+  About Us
+{% endblock %}
+
+{% block content %}
+  <div class="vh-100 d-flex align-items-center justify-content-center text-white">
+    <div class="container p-3 p-sm-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-md-10">
+          <div class="card border-light bg-transparent shadow-lg rounded-lg" style="backdrop-filter: blur(10px);">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img class="img-fluid rounded-start" src="{% static 'KatalogLaptop/images/laptop2.jpg' %}" alt="" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-5">
+                  <h2 class="card-title text-center text-white">About Katalog Laptop</h2>
+                  <p class="card-text text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quis nobis cumque nemo eveniet dignissimos voluptatum delectus optio quisquam velit? Iure suscipit ipsa nulla optio, vitae vel provident error labore!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
