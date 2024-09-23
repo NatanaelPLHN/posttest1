@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "KatalogLaptop", #aplikasi
     'django_bootstrap5', # Bootstrap
+    'django_seed', #django_seed
 ]
 
 MIDDLEWARE = [
@@ -78,8 +79,12 @@ WSGI_APPLICATION = "posttest_proj.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'KatalogLaptop',
+        'USER': 'root', # User default MySQL di XAMPP
+        'PASSWORD': '', # Biasanya password default di XAMPP kosong (tidak diisi)
+        'HOST': '127.0.0.1', # Host MySQL di XAMPP (localhost)
+        'PORT': '3306',
     }
 }
 
