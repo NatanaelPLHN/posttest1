@@ -53,6 +53,14 @@
 
 ### Posttest 2
 
-**Coming soon**
+#### Database: Table Laptop
+
+![Screenshot (41)](https://github.com/user-attachments/assets/fab0ebca-29b0-4618-9072-2c2d847b5934)
+![Screenshot (42)](https://github.com/user-attachments/assets/d9ba8e7d-95f4-4103-a072-afba8bb9e8a8)
+
+#### Database: Table Rating
+
+![Screenshot (43)](https://github.com/user-attachments/assets/7c2cc6b2-88d7-451f-8e1e-ffa498d7a74c)
+![Screenshot (44)](https://github.com/user-attachments/assets/3b868ef1-83f8-4e23-bdea-8c9e9e8c7b19)
 
 ---
