@@ -81,18 +81,18 @@ Saat rating dibuat, Total Rating akan otomatis di kalkulasi dan ditampilkan di d
 
 #### Static Assets
 
-about.html
-    'KatalogLaptop/images/laptop2.jpg'
+about.html :
+- 'KatalogLaptop/images/laptop2.jpg'
 
-katalog.html
-    'KatalogLaptop/images/laptop1.jpg'
-    'KatalogLaptop/images/laptop2.jpg'
-    'KatalogLaptop/images/laptop3.jpg'
-    'KatalogLaptop/images/laptop4.jpg'
-    'KatalogLaptop/images/laptop5.jpg'
-    'KatalogLaptop/images/bg.png'
+katalog.html :
+- 'KatalogLaptop/images/laptop1.jpg'
+- 'KatalogLaptop/images/laptop2.jpg'
+- 'KatalogLaptop/images/laptop3.jpg'
+- 'KatalogLaptop/images/laptop4.jpg'
+- 'KatalogLaptop/images/laptop5.jpg'
+- 'KatalogLaptop/images/bg.png'
 
-layouts.html
-    'KatalogLaptop/css/style.css'
+layouts.html :
+- 'KatalogLaptop/css/style.css'
     
 ---
