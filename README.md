@@ -63,4 +63,36 @@
 ![Screenshot (43)](https://github.com/user-attachments/assets/7c2cc6b2-88d7-451f-8e1e-ffa498d7a74c)
 ![Screenshot (44)](https://github.com/user-attachments/assets/3b868ef1-83f8-4e23-bdea-8c9e9e8c7b19)
 
+### Posttest 3
+
+#### Table Laptop
+
+![Screenshot (85)](https://github.com/user-attachments/assets/5cdcfa8a-806c-4cc4-8523-635bb7792146)
+
+#### Table Rating
+
+![Screenshot (86)](https://github.com/user-attachments/assets/a3f6e97b-015d-4e21-b878-cb4e4ff90ca9)
+
+#### Function Total Rating Otomatis Bertambah Setelah Rating Dibuat
+
+![Screenshot (87)](https://github.com/user-attachments/assets/1746d1e3-1792-46da-a700-f205cc63e804)
+
+Saat rating dibuat, Total Rating akan otomatis di kalkulasi dan ditampilkan di data Laptop.
+
+#### Static Assets
+
+about.html
+    'KatalogLaptop/images/laptop2.jpg'
+
+katalog.html
+    'KatalogLaptop/images/laptop1.jpg'
+    'KatalogLaptop/images/laptop2.jpg'
+    'KatalogLaptop/images/laptop3.jpg'
+    'KatalogLaptop/images/laptop4.jpg'
+    'KatalogLaptop/images/laptop5.jpg'
+    'KatalogLaptop/images/bg.png'
+
+layouts.html
+    'KatalogLaptop/css/style.css'
+    
 ---
