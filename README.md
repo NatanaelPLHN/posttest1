@@ -95,4 +95,20 @@ katalog.html :
 layouts.html :
 - 'KatalogLaptop/css/style.css'
     
----
+### Posttest 2
+
+#### Table
+
+![Screenshot (101)](https://github.com/user-attachments/assets/bd86d0da-0c01-4149-a397-52ecd7be2807)
+
+#### Tambah Data
+
+![Screenshot (104)](https://github.com/user-attachments/assets/2d5aab78-0067-46dd-b0d7-7acab30be682)
+
+#### Update Data
+
+![Screenshot (102)](https://github.com/user-attachments/assets/6ad9fd7f-4286-4fa0-a00c-d4cfa0aaeb2e)
+
+#### Delete Data
+
+![Screenshot (103)](https://github.com/user-attachments/assets/6d721862-768d-4bc5-930d-47be553862c3)
