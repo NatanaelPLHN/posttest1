@@ -15,16 +15,34 @@
     {% bootstrap_css %}
     {% bootstrap_javascript %}
   </head>
-  <body class="vh-100 overflow-hidden">
+  <body class="d-flex flex-column min-vh-100">
     {% block navbar %}
       <nav class="navbar navbar-expand-lg navbar-dark bg-cust-gradient py-4">
         <div class="container">
           <a class="navbar-brand fs-4" href="/">Home</a>
-          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"><span class="navbar-toggler-icon"></span></button>
-          <div class="offcanvas offcanvas-end bg-cust-gradient" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <button
+            class="navbar-toggler shadow-none border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end bg-cust-gradient"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
             <div class="offcanvas-header text-white border-bottom">
-              <h5 class="offcanvas-title " id="offcanvasNavbarLabel">Canvas</h5>
-              <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Canvas</h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white shadow-none"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -35,11 +53,11 @@
                   <a class="nav-link active" aria-current="page" href="/katalog">Katalog</a>
                 </li>
                 <li class="nav-item mx-2">
-                    <a class="nav-link active" aria-current="page" href="#">Lorem</a>
-                  </li>
-                  <li class="nav-item mx-2">
-                    <a class="nav-link active" aria-current="page" href="/about">About</a>
-                  </li>
+                  <a class="nav-link active" aria-current="page" href="#">Lorem</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="/about">About</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -47,8 +65,15 @@
       </nav>
     {% endblock %}
 
-    {% block content %}
+    <main class="flex-grow-1">
+      {% block content %}
+      {% endblock %}
+    </main>
 
-    {% endblock %}
+    <footer class="bg-dark text-white py-3 mt-auto text-center">
+      <div class="container">
+        <p class="mb-0">© 2024 Katalog Laptop. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>

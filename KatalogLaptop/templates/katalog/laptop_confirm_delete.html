@@ -1,0 +1,16 @@
+{% extends 'home/layouts.html' %}
+
+{% block title %}
+  Confirm Delete Laptop
+{% endblock %}
+
+{% block content %}
+<div class="container my-5 text-white">
+    <h2 class="mb-4">Are you sure you want to delete "{{ laptop.laptop_name }}"?</h2>
+    <form method="POST">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a href="{% url 'katalog' %}" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+{% endblock %}

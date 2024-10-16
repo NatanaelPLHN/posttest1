@@ -4,6 +4,8 @@
   Home
 {% endblock %}
 
+{% load static %}
+
 {% block content %}
   <div class="vh-100 d-flex align-items-center text-white">
     <div class="container">
@@ -11,8 +13,8 @@
         <div class="col-lg-7 mx-auto text-center">
           <h1 class="display-4">Welcome To Katalog Laptop</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In qui necessitatibus dolorum accusamus ipsam doloribus dolorem deserunt quasi facilis repellat? Perspiciatis est optio rem voluptatum quidem laboriosam suscipit? Alias, ipsum?</p>
-          <a class="btn btn-primary" href="/katalog">Get Started</a>
-          <button class="btn"><span>Hover </span></button>
+          <a class="btn btn-primary" href= "{% url 'katalog' %}" >Get Started</a>
+          <a class="btn" href= "/"><span>Login</span></a>
         </div>
       </div>
     </div>
